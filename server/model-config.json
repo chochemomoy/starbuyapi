@@ -35,5 +35,13 @@
   "users": {
     "dataSource": "starbuydb",
     "public": true
+  },
+  "sells": {
+    "dataSource": "starbuydb",
+    "public": true
+  },
+  "sellsline": {
+    "dataSource": "starbuydb",
+    "public": false
   }
 }

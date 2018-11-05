@@ -1,0 +1,27 @@
+{
+  "name": "sellsline",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "starship_model": {
+      "type": "string",
+      "required": true,
+      "default": ""
+    },
+    "precio": {
+      "type": "number",
+      "required": true
+    },
+    "cantidad": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
