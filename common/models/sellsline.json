@@ -21,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "sells": {
+      "type": "hasOne",
+      "model": "sells",
+      "foreignKey": "id"
+    }
+  },
   "acls": [],
   "methods": {}
 }

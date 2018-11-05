@@ -20,7 +20,7 @@
     "sellsline": {
       "type": "hasMany",
       "model": "sellsline",
-      "foreignKey": "",
+      "foreignKey": "sell_id",
       "options": {
         "nestRemoting": true
       }
